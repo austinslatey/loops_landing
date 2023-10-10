@@ -36,7 +36,7 @@ const footerData = [
         lastName: 'BLAUM',
         role: 'CO-FOUNDER',
         secondaryRole: 'BLAUM BROS DISTILLING CO.',
-        url: 'https://www.blaumbros.com'
+        url: 'https://www.instagram.com/blaumbros/'
     },
 ];
 
