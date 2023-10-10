@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.text-large {
+    font-size: 100px;
+}
+
+.dropdown-toggle:after {
+    display: none;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.text-large {
+    font-size: 100px;
+}
+
+.dropdown-toggle:after {
+    display: none;
+}
+
+/* Buttons */
+
+.btn-square {
+    height: 60px;
+    width: 60px;
+}
+
+.btn-circle {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+}
+
+.btn-sidebar {
+    border-radius: 50%;
+    width: 120px;
+    height: 120px
+}

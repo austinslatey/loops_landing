@@ -1,0 +1,130 @@
+.bg-dark-grey {
+    background-color: rgba(20,20,22);
+}
+
+.landing-container {
+    background-image: url('../imgs/bg-main.webp');
+    background-size: cover;
+}
+
+#bg-left-col {
+    background-image: url('../imgs/bg-leftCol.webp');
+    background-size: cover;
+    
+}
+
+.logo-text {
+    font-size: 1.25rem;
+}
+
+.text-purple {
+    color: #946BFC;
+}
+
+.text-light-purple {
+    color: rgb(201, 181, 253)
+}
+
+.text-dull {
+    color: rgb(138,138,138);
+}
+
+.googly-eyes {
+    text-shadow: rgba(0, 0, 0, 0.4) 0px 4px 5px
+}
+
+#empower {
+    text-align: left;
+}
+
+#empower-col {
+    border-left: 2px solid white;
+}
+
+#tracking-bg {
+    background-size: cover;
+    background-image: url('../imgs/bg-column.webp');
+}
+
+.tracking {
+    font-weight: 900;
+}
+
+#spikey-container {
+    background-image: url('../imgs/bg-fill-row.webp');
+    background-size:cover;
+    height: 800px;
+    
+}
+
+.soundpickr-img {
+    filter: brightness(1) hue-rotate(300deg) invert(1);
+}
+
+.dawnAudio-img {
+    filter: brightness(1) hue-rotate(250deg) invert(1);
+}
+
+.legal-text {
+    text-align: end;
+}
+
+.footing {
+    height: 20rem;
+}
+
+.email-submit, .signIn {
+    background-color: #946BFC !important;
+}
+
+.email-submit:hover, .signIn:hover {
+    background-color: rgb(201, 181, 253) !important
+}
+
+.signIn {
+    height: 3.75rem;
+    width:14rem
+}
+
+.image-link {
+  position: relative;
+}
+
+.image-link:hover .overlay {
+  opacity: 75%;
+}
+
+.overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  width: 90%;
+  height: 90%;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.threeD-container {
+  overflow: hidden;
+}
+
+.global-insight-text, .latest-tech-text {
+  font-size: 1.5rem;
+}
+
+@media (max-width: 768px) {
+    #empower-col {
+        border-left: none;
+    }
+
+    #empower {
+        text-align: center
+    }
+}
+
